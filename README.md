@@ -14,7 +14,7 @@
     * https://cmder.net/
 
 * Compass
-    https://www.mongodb.com/try/download/compass
+    * https://www.mongodb.com/try/download/compass
 
 ## Configurações
 * É necessário configurar as variáveis de sistema para o uso do mongodb caso o acesso pelo terminal de tenha tido sucesso. 
