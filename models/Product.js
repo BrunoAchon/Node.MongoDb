@@ -30,9 +30,15 @@ class Product {
     return product
   }
   
-  static async removeProductById(id){
+  static async removeProdutctById(id){
     await conn.db().collection('products').deleteOne({ _id: ObjectId(id) })
     return 
+  }
+
+  // sem necessidade do static
+  async updateProductById(id){
+    await conn.db().collection('products').updateOne({_id: ObjectId(id)}, {$set: this})
+    return
   }
 }
 
