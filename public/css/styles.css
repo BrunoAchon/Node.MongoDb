@@ -69,13 +69,15 @@ form {
 }
 
 .product {
-  width: 25%;
+  width: 23%;
+  margin: 1%;
   text-align: center;
   margin-bottom: 1em;
 }
 
 .product img {
-  max-width: 100%;
+  max-width: 250px;
+  min-width: 250px;
   margin-bottom: 0.5em;
 }
 
@@ -85,6 +87,7 @@ form {
 
 .product-page img {
   max-width: 250px;
+  min-width: 250px;
   margin-bottom: 1em;
 }
 
