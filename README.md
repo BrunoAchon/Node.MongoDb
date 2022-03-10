@@ -1,5 +1,6 @@
 # Node.MongoDb
-    * Node.js + MongoDb 
+    
+* Node.js + MongoDb 
 
 
 ## Ferramentas necessárias
@@ -17,3 +18,4 @@
     * Variaveis de Ambiente : Path = Incluir o caminho da instalação do MongoDb.
         * Exemplo Mongo = C:\Program Files\MongoDB\Server\5.0\bin
         * Exemplo Tools = C:\Program Files\MongoDB\Tools\100\bin
+    * Testar usando os comando "mongo" e "mongoimport" no Cmder para se certificar do sucesso.
